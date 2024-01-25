@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sanity-Basic
+> A simple small project to get familiar with Sanity CMS and all it's features.
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+This project is an exploration of next.js and Sanity CMS combined. It is meant to be used as a learning tool for implementing
+Sanity, using it for CRUD operations and back-end content management.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Setup
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Setup an account at https://www.sanity.io/ 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Start a new project on the dashboard, and for your first project copy the CLI they provide.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+It will connect your local environment to your dashboard.
 
-## Learn More
+If it is your 2nd project follow the setup below:
 
-To learn more about Next.js, take a look at the following resources:
+### CLI Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Create Next.js typescript application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```npx create-next-app@latest sanity-basic --typescript --tailwind --eslint```
 
-## Deploy on Vercel
+<img src="https://github.com/Triv2/sanity-basic/assets/126743500/d5430e5e-2232-4070-a9da-f8dc9d89495c" alt="next-setup" width={500} height={200} />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Create Sanity Project and connect to your Sanity dashboard
+
+```npm -y create sanity@latest```
+
+<img src="https://github.com/Triv2/sanity-basic/assets/126743500/b4b0549f-29a1-42bd-aa8f-70639381a24b" alt="next-setup" width={400} height={700} />
+
+- Not sure if this is something wrong on my end, or what. Will update this section if I figure it out. But need to add quotes to the tsconfig.json target.
+
+<img src="https://github.com/Triv2/sanity-basic/assets/126743500/e29c683f-d769-4b48-a93e-2fe5d840ce29" alt="next-setup" width={300} height={500} />
+
+
