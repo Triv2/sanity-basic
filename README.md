@@ -36,3 +36,7 @@ If it is your 2nd project follow the setup below:
 <img src="https://github.com/Triv2/sanity-basic/assets/126743500/e29c683f-d769-4b48-a93e-2fe5d840ce29" alt="next-setup" width={300} height={500} />
 
 
+## How It Works
+
+On the backend sanity schamas are setup, similar to react form schemas. These schemas are automatically added to the database and the content management system once built.
+To access the data on the front-end Sanity uses GROQ queries. These are simple strings attached to a fetch query that selective read the values in the string. 
